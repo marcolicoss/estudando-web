@@ -1,0 +1,288 @@
+.cardapio-bg {
+    background: var(--cor-11);
+}
+
+.titulo-bg {
+    background: var(--cor-11);
+
+}
+
+/* titulo */
+
+.cardapio-título {    
+    display: block;
+    padding-top: 60px;
+    text-align: center;    
+    padding-bottom: 30px;   
+}
+
+/* sushi */
+
+.refeicao-sushi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-11);
+    overflow: hidden;
+    padding-bottom: 30px;    
+}
+
+
+.cardapio-img-sushi{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;     
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+         
+}
+
+.cardapio-sushi {
+    padding: 15px 15px 60px 60px;    
+    background-color: var(--cor-p1); 
+    max-width: 100%;             
+}
+
+/* sashimi */
+
+.refeicao-sashimi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-11);
+    overflow: hidden;
+    padding-bottom: 30px;    
+}
+
+
+.cardapio-img-sashimi{
+    display:flex;
+    justify-content: start;
+    align-items:center;     
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;         
+}
+
+.cardapio-sashimi {    
+    padding: 15px 15px 60px 60px;    
+    background-color: var(--cor-p1); 
+    max-width: 100%;    
+    text-align: right;       
+}
+
+.cardapio-sashimi ul {      
+    text-align: right;
+    padding-right: 20px;
+    margin-right: 20px;       
+}
+
+/* pratos quentes */
+
+.refeicao-pratos-quentes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-11);
+    overflow: hidden;
+    padding-bottom: 30px;    
+}
+
+
+.cardapio-img-pratos-quentes{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;     
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;           
+}
+
+.cardapio-pratos-quentes {
+    padding: 15px 15px 60px 60px;    
+    background-color: var(--cor-p1); 
+    max-width: 100%;          
+}
+
+/* bebidas e acompanhamentos */
+
+.extra-bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-11);
+    overflow: hidden;    
+    background-color: var(--cor-p4); 
+    
+}
+
+.cardapio-bebidas {
+    text-align: right;
+    padding-right: 20px; 
+}
+
+.cardapio-bebidas {
+    text-align: right;
+    padding-right: 20px; 
+}
+
+/* agendamento */
+
+.agendamento {
+    display: block;
+    padding-top:20px;    
+    text-align: center;    
+    padding-bottom: 30px;         
+    background: var(--cor-11);    
+}
+
+
+
+@media (max-width:1300px) {
+    .cardapio-título {    
+        font-size: 48px;
+    }
+    /* sushi */
+    .refeicao-sushi {
+        grid-template-columns: 1fr;}
+    .cardapio-img-sushi {
+        display: flex;
+        justify-content: right;
+        align-items:center;        
+    } 
+    .cardapio-sushi {
+        font-size: 18px;
+    } 
+    /* sashimi   */    
+    .refeicao-sashimi {
+        display: flex;
+        justify-content: center;
+        align-items:center;     
+        width: 100%;
+        height: 100%;
+    }
+    .refeicao-sashimi {
+            display:table;
+        }
+     
+    .cardapio-img-sashimi {
+        display: flex;
+        justify-content: center;
+        align-items:center;                     
+    }
+    
+    .cardapio-img-sashimi {
+        display: table-header-group;
+    } 
+
+    .cardapio-sashimi {
+        display: table-row-group; 
+        font-size: 18px;                
+    } 
+
+    .cardapio-sashimi ul {        
+        text-align: left;
+        margin-left: 60px;
+        padding-bottom: 60px; 
+        padding-top: 10px;        
+    }
+         
+    /* pratos quentes */
+    .refeicao-pratos-quentes {
+        grid-template-columns: 1fr;}
+    .cardapio-img-pratos-quentes {
+        display: flex;
+        justify-content: right;
+        align-items:center;       
+    } 
+    .cardapio-pratos-quentes {
+        font-size: 18px;
+    }
+    /* bebidas e acompanhamentos */
+
+    .extra-bg {    
+        grid-template-columns: 1fr;    
+    }
+    .cardapio-bebidas {
+        text-align: left;
+        padding-left: 60px;                
+    }
+    .cardapio-acompanhamentos {
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 60px;
+        padding-bottom: 30px;    
+    }    
+    .cardapio-título {
+        font-size: 48px;
+    }
+    .agendamento {
+        display:grid;
+        grid-template-columns: 1fr;        
+    }
+    .agendamento-texto {
+        text-align: left;
+        margin-left: 60px;
+    }
+    .botao {
+        margin-left: 60px;
+    }   
+    
+}
+
+@media (max-width:800px) {
+    .cardapio-título {
+        font-size: 32px;
+    }    
+   
+    .cardapio-sushi {
+        font-size: 16px;
+    } 
+    
+    .cardapio-sashimi {        
+        font-size: 16px;                
+    }            
+   
+    .cardapio-pratos-quentes {
+        font-size: 16px;
+    }
+   
+    
+    .cardapio-título {
+        font-size: 32px;
+    }    
+}
+
+@media (max-width:400px) {
+    .cardapio-título {
+        font-size: 24px;
+    }    
+   
+    .cardapio-sushi {
+        font-size: 12px;
+    } 
+    
+    .cardapio-sashimi {        
+        font-size: 12px;                
+    }            
+   
+    .cardapio-pratos-quentes {
+        font-size: 12px;
+    }
+   
+    
+    .cardapio-título {
+        font-size: 24px;
+    }  
+   
+}
+
+
+
+
+
+
+
+
+
+

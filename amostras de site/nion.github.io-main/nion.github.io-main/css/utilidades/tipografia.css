@@ -1,0 +1,66 @@
+.font-g4i {
+  font: 500 4rem/1.125 "EB Garamond", sans-serif;
+}
+
+.font-g3i {
+    font: 500 2.5rem/1.2 "EB Garamond", sans-serif;
+}
+
+.font-g2i {
+    font: 500 2rem/1.25 "EB Garamond", sans-serif;
+}
+
+.font-g1i {
+  font: 500 1.125rem/1.55 "EB Garamond", sans-serif;
+}
+
+.font-m4r {
+  font: 400 2.625rem/1.14 "Montserrat", sans-serif;
+}
+
+.font-m3r {
+    font: 400 2rem/1.31 "Montserrat", sans-serif;
+}
+
+.font-m2r {
+    font: 400 1.5rem/1.33 "Montserrat", sans-serif;
+}
+
+.font-m1r {
+    font: 400 1rem/1.5 "Montserrat", sans-serif;
+}
+
+.font-m3i {
+    font: 400 2rem/1.33 "Montserrat", sans-serif;
+}
+
+.font-m2i {
+    font: 400 1.5rem/1.33 "Montserrat:ital", sans-serif;
+    font-style: italic;
+}
+
+.font-m1i {
+    font: 400 1rem/1.5 "Montserrat:ital", sans-serif;
+    font-style: italic;
+}
+  
+  /* @media (max-width: 1200px) {
+    .font-1-xxl {
+      font-size: 3rem;
+    }
+    .font-2-l,
+    .font-2-l-b {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .font-1-xxl {
+      font-size: 2rem;
+    }
+    .font-1-xl,
+    .font-2-xl {
+      font-size: 1.5rem;
+    }
+  } */
+  

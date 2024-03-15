@@ -1,0 +1,8 @@
+.lista ul li {
+    list-style: none;
+    
+}
+.lista img {
+    height: 90px;
+    width: 110px;
+}

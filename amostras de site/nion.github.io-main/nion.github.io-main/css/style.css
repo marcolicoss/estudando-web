@@ -1,0 +1,22 @@
+/* base */
+@import "./base/global.css";
+@import "./base/footer.css";
+@import "./base/header.css";
+
+/* utilidades*/
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";
+
+/* home */
+@import "./home/home.css";
+@import "./home/cardápio.css";
+@import "./home/slideshow.css";
+
+/* cardapio */
+@import "./cardapio/cardapio-p.css";
+
+/* contato */
+@import "./contato/contato.css";
+
+

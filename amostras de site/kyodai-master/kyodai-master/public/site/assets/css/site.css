@@ -1,0 +1,335 @@
+.borda{
+     border: 1px solid blue;
+}
+
+.borda-red{
+    border: 1px solid red;
+}
+
+.topo{
+    /*background-color: #990000;*/
+    opacity: 0.5;
+}
+
+.bg-section-header-site{
+    background: url(../img/home/comida-japonesa.jpg) no-repeat center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    /* padding: 0em !important; */
+    position: relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+}
+
+.active-header {
+    opacity: 1;
+}
+
+.section-padding{
+    padding: 60px 0px 60px 0px;
+}
+
+.header-size-site{
+    height:400px;
+    margin-top: -20px;
+}
+
+.text-color-1{
+    color: #1f1f1f;
+    font-weight: 800;
+}
+
+.linha-header-index{
+    border: 2px solid black;
+    width: 100px;
+}
+
+.text-title-description{
+    margin-top: 50px;
+    color: #8c8c8c;
+    margin-bottom: 50px;
+}
+
+.text-title-description-black {
+    margin-top: 50px;
+    color: #1f1f1f;
+    margin-bottom: 50px;
+}
+
+.bg-section-index-menu{
+    background-image: url(../img/home/bg-1.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    /* padding: 0em !important; */
+    position: relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+}
+}
+
+.banner-menu-h3{
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.banner-menu-h3-black{
+    font-weight: 500;
+    color: black;
+}
+
+.banner-menu-img{
+    width: 200px;
+}
+
+.linha-header-index-menu{
+    border: 2px solid white;
+    width: 50px;
+}
+
+.linha-header-index-menu-black{
+    border: 2px solid black;
+    width: 50px;
+}
+
+.text-menu-index{
+    color: rgb(224, 204, 188);
+}
+
+.bg-section-index-horario{
+    background-image: url(../img/home/bg-relogio.png) !important;
+
+ background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    !* padding: 0em !important; *!
+    position:relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+}
+
+.jumbotron-content{
+    margin-top: -20px;
+}
+
+.bg-section-index-carousel{
+    background-image: url(../img/home/fish-background-retangulo-60.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    !* padding: 0em !important; *!
+    position:relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+}
+
+.carousel-img{
+    width: 150px;
+}
+
+.carousel-text{
+    margin-top: -130px;
+}
+
+.bg-section-index-footer{
+    background-image: url(../img/home/rodape.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    !* padding: 0em !important; *!
+    position:relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+        height: 450px;
+}
+
+.bg-footer{
+    background-color: rgb(96, 0, 28);
+    width: 100%;
+}
+
+/*Background quem somos*/
+.bg-qs{
+    background-image: url(../img/quem-somos/bg-japan.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    !* padding: 0em !important; *!
+    position:relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+}
+
+/*Margin-top tópico*/
+.mg-topico{
+    margin-top: 20px;
+}
+
+/*Comprimento e largura da imagem do cardápio*/
+
+.img-cardapio-width-height{
+    width: 100%;
+    height: 100px;
+}
+
+/*Texto dentro da imagem*/
+.text-img-cardapio{
+    font-size: 100px !important;
+    margin-top: -100px;
+    margin-bottom: 60px;
+}
+
+.item-text-cardapio{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.localizacao-horario-margin{
+    margin-top: -30px;
+}
+
+.bg-section-contato{
+    background-image: url(../img/contato/bg-flores.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    bottom: 0 !important;
+    color: black !important;
+    left: 0 !important;
+    overflow: none !important;
+    /* padding: 0em !important; */
+    position: relative !important;
+    right: 0 !important;
+    text-align: center !important;
+    top: 0 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    clear: both;
+}
+
+.input-pink{
+    background-color: rgb(119, 0, 37);
+    color: white;
+    border: rgb(119, 0, 37);
+}
+
+.form{
+    margin-top: 300px;
+}
+
+.label-contato{
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+#nome{
+    color: white !important;
+}
+
+input, textarea{
+    opacity: 0.5;
+    color: black;
+}
+
+.right{
+    float: right;
+    color: white !important;
+}
+
+.button{
+    width: 400px;
+}
+
+.bg-tripadvisor{
+    background-image: url(../img/home/tripadvisor.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 763px;
+
+}
+
+.box-tripadvisor{
+    /* margin-top: 0px; */
+    margin-left: 180px;
+}
+
+.box-tripadvisor-avaliacoes{
+    margin-left: -25px;
+}
+
+.box-tripadvisor-recomendacoes{
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+
+.linha-1 {
+    position: relative;
+    top: -14px !important;
+}
+
+.ajuste-box-cardapio {
+    padding-top: 10px;
+    padding-bottom: 60px !important;
+}
+
+.img-cardapio-ajuste {
+    width: 150px;
+    height: 150px;
+}

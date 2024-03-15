@@ -1,0 +1,229 @@
+@media screen and (min-width:350px){
+    
+
+    #text {
+        margin-bottom: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    #text>h5{
+        font-size: 38px;
+    }
+    .icon-default{
+        top: 522px;
+    }
+    #img-corrocel{
+        height: 580px
+    }
+    .card{
+        width: 7rem;
+    }
+    .flex_imgens{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .img_restaurante{
+        width: 180px;
+        border-radius: 15px;
+        
+    }
+    .icon-logo{
+        position: absolute;
+        width: 200px;
+        top: -90px;
+        left: 6%; 
+        transform: translateX(-50%);
+        height: 49px;
+        z-index: 30;
+        text-align: center;
+        padding: 20px 0 0 0;
+        width: 150px;
+        
+    
+    }
+
+
+
+
+}
+@media screen and (min-width: 351px) and (max-width: 730px)  {
+    #text {
+        margin-bottom: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    #text>h5{
+        font-size: 38px;
+    }
+    .icon-default{
+        top: 522px;
+    }
+    #img-corrocel{
+        height: 580px
+    }
+    .card{
+        width: 7rem;
+    }
+    .flex_imgens{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .img_restaurante{
+        width: 180px;
+        border-radius: 15px;
+        
+    }
+    .icon-logo{
+        position: absolute;
+        width: 200px;
+        top: -90px;
+        left: 10%; 
+        transform: translateX(-50%);
+        height: 49px;
+        z-index: 30;
+        text-align: center;
+        padding: 20px 0 0 0;
+        width: 150px;
+        
+    
+    }
+   
+    
+}
+
+@media screen and (min-width: 835px) {
+    .icon-default{
+        top: 91.5%;
+    }
+    #text {
+        margin-bottom: 430px;
+        
+    }
+    #text>h5{
+        font-size: 59px;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #img-corrocel{
+        height: 612px;
+        width: 600px;
+    }
+    .flex_imgens{
+        
+        display: flex;
+        flex-direction: row;
+        margin-top: 120px;
+        
+        
+        
+    }
+    .img_restaurante{
+        width: 350px;
+        border-radius: 15px;
+    
+    }
+    .icon-logo{
+        position: absolute;
+        width: 200px;
+        top: -125px;
+        left: 50%; 
+        transform: translateX(-50%);
+        height: 59px;
+        z-index: 30;
+        text-align: center;
+        padding: 20px 0 0 0;
+        
+    
+    }
+
+    .colorendereco{
+        padding: 10px;
+    }
+    
+}
+
+
+
+.icon-default {
+    /* Estilização do ícone com a classe 'icon-default' */
+    position: absolute;
+    width: 254px;
+    left: 50%; 
+    background: url(./fotos/pattern-white.png) ;
+    
+    height: 59px;
+    z-index: 30;
+    text-align: center;
+    padding: 20px 0 0 0;
+    transform: translateX(-50%);
+    -webkit-transform:  translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    
+}
+
+.img_restaurante:hover{
+    -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+    
+}
+@media (max-: 720px) {
+    #img-corrocel{
+        height: 300px;
+    }
+    
+    
+}
+.sobre>h1{
+    justify-content: center;
+    margin-top: 5px
+
+
+}
+.colornav{
+    background-color: #111B1E;
+}
+.colorendereco>a{
+    background-color: #E4B95B;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 120px;
+}
+.colorendereco{
+    background-color: #E4B95B;
+}
+
+.menu-carocel{
+    background-image: url(fotos/superficie-de-metal-riscada-de-estilo-grunge-escuro.jpg);
+}
+.card1{
+    border-radius: 25px;
+    background-color: wheat;
+    
+
+}
+.card-image1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card-image1 .card-img1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+

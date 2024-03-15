@@ -1,0 +1,505 @@
+/* CSS */
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("midia/banner01.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#tabua1 {
+    background: url("midia/restaurante2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 520px;
+}
+#contato{
+    background: url("./midia/contato/contato3.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;    
+}
+#historia{
+    background: url("./midia/foto_historia.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;    
+}
+
+body {
+    background-color: #FFF;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* MENU */
+
+
+/* AJUSTA O CAROUSEL NA ALTURA CORRETA DO MONITOR */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: "Bree Serif", sans-serif;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+}
+
+.carousel-caption a:hover {
+    color: #000000;
+}
+
+.nav-item a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+}
+
+.cor_menu {
+    background-color: rgba(255, 103, 1, .9);
+    transition: 1.5s;
+    box-shadow: 1px 1px 5px;
+}
+
+.titulo_nav {
+    font-family: 'Berkshire Swash', cursive;
+    color: #FFF !important;
+    font-size: 22px;
+}
+
+.opcoes_nav {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav li a {
+    color: #FFF !important;
+}
+
+.navbar-nav li a:hover {
+    /*color: #15544c !important;*/
+    animation: opac 0.5s;
+    /*transition: 0.8s;*/
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.txt_capa_1 {
+    font-size: 50px;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.txt_capa_2 {
+    font-size: 20px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.txt_capa_3 {
+    font-size: 35px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.txt_capa_4 {
+    font-size: 60px;
+    color: #000;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.txt_capa_5 {
+    font-size: 22px;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.sombra {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+}
+.btn_saiba_mais {
+    width: 100% !important;
+}
+.btn_laranja {
+    background-color: #ff6701;
+    color: #FFF;
+}
+.btn_laranja:hover {
+    border-color: #ff6701;
+    background-color: #FFF;
+    color: #ff6701;
+}
+
+.btn_preto {
+    background-color: #000;
+    color: #FFF;
+}
+.btn_preto:hover {
+    border-color: #000;
+    background-color: #FFF;
+    color: #000;
+}
+
+}
+.btn_enviar {
+    width: 100% !important;
+}
+.color_back_nav {
+    background-color: #bc2b26;
+}
+.centralizador_topo {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+.texto_botao {
+    font-family: 'Oswald',
+    sans-serif;
+}
+.promocao h5 {
+    color: #d2110a;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Oswald',
+    sans-serif;
+}
+.promocao p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Oswald',
+    sans-serif;
+}
+.scroll_animado {
+    opacity: 0;
+    /* ELEMENTO VEM DA ESQUERDA COM O TRANSLATE 3D */
+    transform: translate3d(-200px,
+    0,
+    0);
+    transition: 1s;
+}
+.scroll_animado_start {
+    opacity: 1;
+    transform: translate3d(0,
+    0,
+    0);
+}
+
+/* COR ÍCONE DO MENU */
+.icone_branco {
+    color: #FFF;
+}
+
+/* TIRAR ESTILO DO ICONE DO MENU */
+.navbar-toggler {
+    outline: none !important;
+    border-color: #FFF !important;
+}
+
+/* ÍCONES DO MENU */
+.navbar-toggler[aria-expanded="true"] .xis {
+    display: table;
+}
+.navbar-toggler[aria-expanded="false"] .xis {
+    display: none;
+}
+.navbar-toggler[aria-expanded="true"] .barra {
+    display: none;
+}
+.navbar-toggler[aria-expanded="false"] .barra {
+    display: table;
+}
+
+/* ICONE PARA VOLTAR AO TOPO */
+.icone_voltar_topo {
+    color: #d2110a;
+}
+.fa-angle-double-up {
+    font-size: 50px !important;
+}
+.black {
+    color: #212529;
+}
+.localizacao {
+    height: auto;
+    width: auto;
+    background-color: #FFF;
+}
+.secao_entrega {
+    height: auto;
+    width: auto;
+    background-color: #FFF;
+}
+
+/* CENTRALIZA O TEXTO */
+.secao_instagram {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.secao_instagram h1 {
+    font-size: 55px;
+    color: #FFF;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
+}
+.secao_instagram p {
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+.secao_instagram .fa-instagram{
+    font-size: 22px;
+}
+
+.secao_ambiente h1 {
+    font-size: 55px;
+    color: #000;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
+}
+.secao_ambiente .carousel-item.active {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* TAMANHO DO MENU */
+.small {
+    height: 100px;
+}
+.small .navbar-brand {
+    width: 130px;
+}
+.secao_pratos h1 {
+    font-size: 55px;
+    color: #000;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
+}
+
+
+/* CLASSES ADICIONAS NA FUNÇÃO DIMINUIR NAVBAR NO JS */
+.show {}
+.collapsed {}
+.secao_footer {
+    /*background-color: #023009;*/
+    background-color: #0d0d0d;
+}
+.secao_footer p {
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+.secao_footer a {
+    text-decoration: none;
+}
+.footer-copyright h5 {
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+.footer-copyright {
+    background-color: #000;
+}
+
+/* CSS DO FORMULARIO */
+
+#logo {
+    width:50%;
+    height:50%;
+}
+.panel-heading {
+    font-size:150%;
+}
+
+/* ALINHA OS ELEMENTOS DA SEÇÃO DE CONTATO */
+.secao_contato {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.secao_contato h1 {
+    font-size: 60px;
+    color: #FFF;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
+}
+
+.secao_contato p{
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Oswald',
+    cursive;
+    text-align: center;
+}
+.secao_contato .fa-instagram{
+    font-size: 50px;
+    color: #FFF;
+}
+.secao_contato .fa-whatsapp{
+    font-size: 50px;
+    color: #FFF;
+}
+.secao_contato a{
+    text-decoration: none;
+}
+.secao_contato .btn_contato{
+    font-size: 22px;
+}
+/* AJUSTAR IMAGEM NO CAROUSEL */
+@media (max-width: 490px) {
+    .localizacao {
+        margin-top: -50px !important;
+    }
+}
+@media (max-width: 430px) {
+    .localizacao {
+        margin-top: -65px !important;
+    }
+    .icones_servicos{
+        width: 150px;
+    }
+}
+@media (max-width: 400px) {
+    .localizacao {
+        margin-top: -85px !important;
+    }
+}
+@media (max-width: 360px) {
+    .localizacao {
+        margin-top: -105px !important;
+    }
+}
+
+/* SEÇÃO SERVIÇOS */
+.secao_servicos h5{
+    font-size: 30px;
+    color: #000;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: center;
+}
+.secao_servicos p{
+    text-align: center;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #000;
+    font-size: 20px;
+}
+/* SEÇÃO HISTÓRIA */
+.secao_historia {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.secao_historia h1 {
+    font-size: 60px;
+    color: #FFF;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;
+}
+/*
+#intro .btn-outline-light{
+    color: #000;
+    background-color: #fff;
+}
+#intro .btn-outline-light:hover{
+    color: #fff;
+    background-color: transparent;
+}
+*/
+.secao_historia .btn-outline-light{
+    color: #000;
+    background-color: #fff;
+}
+
+.secao_historia .btn-outline-light:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+.modal_historia h1 {
+    font-size: 60px;
+    color: #000;
+    font-family: 'Pacifico',
+    cursive;
+    text-align: center;  
+}
+
+.modal_historia p {
+    text-align: justify;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #000;
+    font-size: 20px;   
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+{
+  "name": "tempero-do-chef",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "author": {
+    "email": "coffeebeam.dev@gmail.com",
+    "name": "Gilles30",
+    "url": "https://github.com/Gilles30"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
